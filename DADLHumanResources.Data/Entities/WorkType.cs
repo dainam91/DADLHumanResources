@@ -14,5 +14,7 @@ namespace DADLHumanResources.Data.Entities
         public int? Daynight { get; set; }
         public string Vtvabsencecode { get; set; }
         public int? Days { get; set; }
+        public AppUser AppUser { get; set; }
+        public Guid UserId { get; set; }
     }
 }
